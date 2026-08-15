@@ -28,6 +28,7 @@ function get_database_connection(): ?PDO
         return $pdo;
     }
 
+    $pdo = new PDO('pgsql:host=localhost;dbname=ct275_lab2','postgres','postgres');
     // Tạo đối tượng PDO để kết nối đến database
 
     return $pdo;
