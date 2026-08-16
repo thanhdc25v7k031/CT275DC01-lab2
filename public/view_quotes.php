@@ -11,7 +11,7 @@ $error_message = null;
 $reason = null;
 $quotes = [];
 
-if ($has_access) {
+if (!$has_access) {
     $error_message = 'Bạn không có quyền truy cập trang này';
 }else{
     $query = 'select id, quote,source,favorite from quotes order by date_entered desc';
