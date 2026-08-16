@@ -9,7 +9,8 @@ function render_page_footer(bool $is_loggedin = false): void
         <p>
             <a href="add_quote.php">Thêm Trích dẫn</a> <->
                 <a href="view_quotes.php">Xem tất cả Trích dẫn</a> <->
-                    <a href="logout.php">Đăng xuất</a>
+                    <a href="search_quote.php">Tìm kiếm trích dẫn</a> <->
+                        <a href="logout.php">Đăng xuất</a>
         </p>
     <?php else: ?>
         <hr>
